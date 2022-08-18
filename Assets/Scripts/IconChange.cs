@@ -9,7 +9,7 @@ public class IconChange : MonoBehaviour
     public Sprite ChangedIcon;
     public Image Bin;
 
-    void Awake()
+    void Start()
     {
         if (GetSceneLoadOver())
         {
