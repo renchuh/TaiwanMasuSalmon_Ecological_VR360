@@ -13,12 +13,9 @@ public class Controller : MonoBehaviour
     public GameObject clickPointC;
     public GameObject showPrefabC;
 
-    public AudioClip audioA;
-    public AudioClip audioB;
-    public AudioSource AudioSrc;
 
     private float timer = 0;
-    public float nSecond = 2f;
+    public float rsSecond = 1f;
     private bool entered = false;
 
 
@@ -41,10 +38,9 @@ public class Controller : MonoBehaviour
             timer += Time.deltaTime;
 
             //Load scene if counter has reached the nSecond
-            if (timer >= nSecond)
+            if (timer >= rsSecond)
             {
                 clickA();
-             
                 entered = false;
                 timer = 0.0f;
             }
@@ -74,7 +70,6 @@ public class Controller : MonoBehaviour
         timer = 0.0f;
         showPrefabA.SetActive(false);
         clickPointA.SetActive(true);
-        AudioSrc.Stop();
     }
 
     public void clickB()
@@ -90,7 +85,6 @@ public class Controller : MonoBehaviour
         timer = 0.0f;
         showPrefabB.SetActive(false);
         clickPointB.SetActive(true);
-        AudioSrc.Stop();
     }
 
     public void clickC()
@@ -106,16 +100,7 @@ public class Controller : MonoBehaviour
         timer = 0.0f;
         showPrefabC.SetActive(false);
         clickPointC.SetActive(true);
-        AudioSrc.Stop();
     }
 
-    public void playA()
-    {
-        AudioSrc.PlayOneShot(audioA);
-    }
 
-    public void playB()
-    {
-        AudioSrc.PlayOneShot(audioB);
-    }
 }

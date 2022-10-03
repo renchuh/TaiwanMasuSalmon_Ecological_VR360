@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: 4b0c86ceb44292744bba0dae2a3e8ffe
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 4956897309439273431
+    second: sakufish|fish01|Take 001|BaseLayer
+  - first:
+      74: -1743666759709563743
+    second: sakufish|fish02|Take 001|BaseLayer
+  - first:
+      74: 7257325091761924263
+    second: sakufish|fish03|Take 001|BaseLayer
+  - first:
+      74: -3624904979713224066
+    second: sakufish|fish04|Take 001|BaseLayer
+  - first:
+      74: -736121383766391974
+    second: sakufish|fish05|Take 001|BaseLayer
+  - first:
+      74: -5982014316787215499
+    second: sakufish|fish06|Take 001|BaseLayer
+  - first:
+      74: 8039513146935080646
+    second: sakufish|fish07|Take 001|BaseLayer
+  - first:
+      74: -351327335953138753
+    second: sakufish|fish08|Take 001|BaseLayer
+  - first:
+      74: -6569172424769928351
+    second: sakufish|fish09|Take 001|BaseLayer
+  - first:
+      74: 4155660029497309181
+    second: sakufish|fish10|Take 001|BaseLayer
+  - first:
+      74: -528419475978162860
+    second: Object_12.001|fish01|Take 001|BaseLayer
+  - first:
+      74: 4387073730659664417
+    second: Object_12.001|fish02|Take 001|BaseLayer
+  - first:
+      74: -5587271862664811623
+    second: Object_12.001|fish03|Take 001|BaseLayer
+  - first:
+      74: -6260924084592514996
+    second: Object_12.001|fish04|Take 001|BaseLayer
+  - first:
+      74: 6354838830569164271
+    second: Object_12.001|fish05|Take 001|BaseLayer
+  - first:
+      74: -6380363299583046316
+    second: Object_12.001|fish06|Take 001|BaseLayer
+  - first:
+      74: 8898393346273778157
+    second: Object_12.001|fish07|Take 001|BaseLayer
+  - first:
+      74: -639636788868345506
+    second: Object_12.001|fish08|Take 001|BaseLayer
+  - first:
+      74: -6441750976170033918
+    second: Object_12.001|fish09|Take 001|BaseLayer
+  - first:
+      74: 7437005427752880460
+    second: Object_12.001|fish10|Take 001|BaseLayer
+  - first:
+      74: -7875298295665263576
+    second: Object_12.001|Object_12.001|Object_12|Scene_Object_12.001|Object_12|Scene_Obj
+  - first:
+      74: -9194311041065168004
+    second: sakufish.001|fish01|Take 001|BaseLayer
+  - first:
+      74: 3940065738537407072
+    second: sakufish.001|fish02|Take 001|BaseLayer
+  - first:
+      74: -3286065582401482924
+    second: sakufish.001|fish03|Take 001|BaseLayer
+  - first:
+      74: -4283690283589160974
+    second: sakufish.001|fish04|Take 001|BaseLayer
+  - first:
+      74: 5632460658324135427
+    second: sakufish.001|fish05|Take 001|BaseLayer
+  - first:
+      74: -174045788030113412
+    second: sakufish.001|fish06|Take 001|BaseLayer
+  - first:
+      74: 6815941515101009447
+    second: sakufish.001|fish07|Take 001|BaseLayer
+  - first:
+      74: 4867234385286290463
+    second: sakufish.001|fish08|Take 001|BaseLayer
+  - first:
+      74: 8074236681752174777
+    second: sakufish.001|fish09|Take 001|BaseLayer
+  - first:
+      74: 6158284236027544873
+    second: sakufish.001|fish10|Take 001|BaseLayer
+  - first:
+      74: -4834775521833617324
+    second: sakufish.002|fish01|Take 001|BaseLayer
+  - first:
+      74: 8133827909768471149
+    second: sakufish.002|fish02|Take 001|BaseLayer
+  - first:
+      74: 6089661866998908957
+    second: sakufish.002|fish03|Take 001|BaseLayer
+  - first:
+      74: -2664838994374276680
+    second: sakufish.002|fish04|Take 001|BaseLayer
+  - first:
+      74: -3917031457722480840
+    second: sakufish.002|fish05|Take 001|BaseLayer
+  - first:
+      74: -9103294112699989758
+    second: sakufish.002|fish06|Take 001|BaseLayer
+  - first:
+      74: 7253446255337472183
+    second: sakufish.002|fish07|Take 001|BaseLayer
+  - first:
+      74: -1968147788084081524
+    second: sakufish.002|fish08|Take 001|BaseLayer
+  - first:
+      74: 2903236551570717466
+    second: sakufish.002|fish09|Take 001|BaseLayer
+  - first:
+      74: -3158267468210982818
+    second: sakufish.002|fish10|Take 001|BaseLayer
+  - first:
+      74: 8321177807974498980
+    second: sakufish.003|fish01|Take 001|BaseLayer
+  - first:
+      74: 8688811380010802018
+    second: sakufish.003|fish02|Take 001|BaseLayer
+  - first:
+      74: -1975078232936748024
+    second: sakufish.003|fish03|Take 001|BaseLayer
+  - first:
+      74: 8533829197877242982
+    second: sakufish.003|fish04|Take 001|BaseLayer
+  - first:
+      74: 8477557433405037670
+    second: sakufish.003|fish05|Take 001|BaseLayer
+  - first:
+      74: 8410829440357576157
+    second: sakufish.003|fish06|Take 001|BaseLayer
+  - first:
+      74: -7646289369986133137
+    second: sakufish.003|fish07|Take 001|BaseLayer
+  - first:
+      74: 7471273444746435703
+    second: sakufish.003|fish08|Take 001|BaseLayer
+  - first:
+      74: -6318714271064868495
+    second: sakufish.003|fish09|Take 001|BaseLayer
+  - first:
+      74: 6575562698215774491
+    second: sakufish.003|fish10|Take 001|BaseLayer
+  - first:
+      74: -5153752036547081377
+    second: sakufish.004|fish01|Take 001|BaseLayer
+  - first:
+      74: 4797112594543249503
+    second: sakufish.004|fish02|Take 001|BaseLayer
+  - first:
+      74: -5946422094168048411
+    second: sakufish.004|fish03|Take 001|BaseLayer
+  - first:
+      74: 7033345016248463760
+    second: sakufish.004|fish04|Take 001|BaseLayer
+  - first:
+      74: -6773053589012491024
+    second: sakufish.004|fish05|Take 001|BaseLayer
+  - first:
+      74: -4360117374362280791
+    second: sakufish.004|fish06|Take 001|BaseLayer
+  - first:
+      74: 9006414910416158911
+    second: sakufish.004|fish07|Take 001|BaseLayer
+  - first:
+      74: -2027127171339731672
+    second: sakufish.004|fish08|Take 001|BaseLayer
+  - first:
+      74: 2273558368055144290
+    second: sakufish.004|fish09|Take 001|BaseLayer
+  - first:
+      74: -5400171672532207423
+    second: sakufish.004|fish10|Take 001|BaseLayer
+  - first:
+      74: 7146771246164208958
+    second: sakufish.006|fish01|Take 001|BaseLayer
+  - first:
+      74: -7391245602432456561
+    second: sakufish.006|fish02|Take 001|BaseLayer
+  - first:
+      74: 8035987118051205867
+    second: sakufish.006|fish03|Take 001|BaseLayer
+  - first:
+      74: 2131910138942050386
+    second: sakufish.006|fish04|Take 001|BaseLayer
+  - first:
+      74: -8858063618659781080
+    second: sakufish.006|fish05|Take 001|BaseLayer
+  - first:
+      74: -1867885762238541246
+    second: sakufish.006|fish06|Take 001|BaseLayer
+  - first:
+      74: -2322406379449082586
+    second: sakufish.006|fish07|Take 001|BaseLayer
+  - first:
+      74: -6437336960928135333
+    second: sakufish.006|fish08|Take 001|BaseLayer
+  - first:
+      74: 8673063583212952882
+    second: sakufish.006|fish09|Take 001|BaseLayer
+  - first:
+      74: -8139529599863478504
+    second: sakufish.006|fish10|Take 001|BaseLayer
+  - first:
+      74: -1262713194713503939
+    second: sakufish.005|fish01|Take 001|BaseLayer
+  - first:
+      74: -5780741361152908286
+    second: sakufish.005|fish02|Take 001|BaseLayer
+  - first:
+      74: 4851274601201310281
+    second: sakufish.005|fish03|Take 001|BaseLayer
+  - first:
+      74: 1367599153226484504
+    second: sakufish.005|fish04|Take 001|BaseLayer
+  - first:
+      74: -7768795435201709860
+    second: sakufish.005|fish05|Take 001|BaseLayer
+  - first:
+      74: -5832174569362107214
+    second: sakufish.005|fish06|Take 001|BaseLayer
+  - first:
+      74: 3174243058436793419
+    second: sakufish.005|fish07|Take 001|BaseLayer
+  - first:
+      74: -6013240699758085524
+    second: sakufish.005|fish08|Take 001|BaseLayer
+  - first:
+      74: 1611275226324053417
+    second: sakufish.005|fish09|Take 001|BaseLayer
+  - first:
+      74: 7210879821518208228
+    second: sakufish.005|fish10|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Object_12.001|Object_12.001|Object_12|Scene_Object_12.001|Object_12|Scene_Obj
+      takeName: Object_12.001|Object_12.001|Object_12|Scene_Object_12.001|Object_12|Scene_Obj
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
