@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 89981256}
   - component: {fileID: 89981255}
   - component: {fileID: 89981259}
+  - component: {fileID: 89981260}
   m_Layer: 0
   m_Name: ForestScene
   m_TagString: Untagged
@@ -379,10 +380,22 @@ MonoBehaviour:
   showPrefabB: {fileID: 158889111}
   clickPointC: {fileID: 628491264}
   showPrefabC: {fileID: 1014837226}
+  rsSecond: 1
+--- !u!114 &89981260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89981254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c241a39b24bda49ab8b38e66a7437f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   audioA: {fileID: 8300000, guid: 6f681cbe463703144b2e8d4026d33f95, type: 3}
   audioB: {fileID: 0}
   AudioSrc: {fileID: 1581598079}
-  nSecond: 2
 --- !u!1 &158889111
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,7 +1345,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 89981259}
+        - m_Target: {fileID: 89981260}
           m_MethodName: playA
           m_Mode: 1
           m_Arguments:

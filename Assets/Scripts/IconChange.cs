@@ -14,7 +14,7 @@ public class IconChange : MonoBehaviour
         if (GetSceneLoadOver())
         {
             Bin.sprite = ChangedIcon;
-            HomeUI.Instance.AddProgress(1 / 8.0f);
+            HomeUI.Instance.AddProgress(1 / 4.0f);
         }
 
     }
@@ -24,6 +24,7 @@ public class IconChange : MonoBehaviour
         for (var i = 0; i < ChangedSceneName.Count; i++)
         {
             if (!SceneLoadMark.LoadedSceneName.Contains(ChangedSceneName[i]))
+            // if (!SceneLoadMark.LoadedSceneName.Contains(ChangedSceneName[i]))
             {
                 return false;
             }

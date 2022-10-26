@@ -65,7 +65,7 @@ ModelImporter:
     second: Object_12.001|fish10|Take 001|BaseLayer
   - first:
       74: -7875298295665263576
-    second: Object_12.001|Object_12.001|Object_12|Scene_Object_12.001|Object_12|Scene_Obj
+    second: swim
   - first:
       74: -9194311041065168004
     second: sakufish.001|fish01|Take 001|BaseLayer
@@ -275,18 +275,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Object_12.001|Object_12.001|Object_12|Scene_Object_12.001|Object_12|Scene_Obj
+      name: swim
       takeName: Object_12.001|Object_12.001|Object_12|Scene_Object_12.001|Object_12|Scene_Obj
       internalID: 0
       firstFrame: 0
-      lastFrame: 250
+      lastFrame: 231
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

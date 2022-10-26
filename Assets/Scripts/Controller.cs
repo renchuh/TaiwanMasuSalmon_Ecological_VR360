@@ -40,7 +40,6 @@ public class Controller : MonoBehaviour
             //Load scene if counter has reached the nSecond
             if (timer >= rsSecond)
             {
-                clickA();
                 entered = false;
                 timer = 0.0f;
             }
