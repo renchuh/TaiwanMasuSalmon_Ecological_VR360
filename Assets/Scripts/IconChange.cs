@@ -24,7 +24,6 @@ public class IconChange : MonoBehaviour
         for (var i = 0; i < ChangedSceneName.Count; i++)
         {
             if (!SceneLoadMark.LoadedSceneName.Contains(ChangedSceneName[i]))
-            // if (!SceneLoadMark.LoadedSceneName.Contains(ChangedSceneName[i]))
             {
                 return false;
             }
