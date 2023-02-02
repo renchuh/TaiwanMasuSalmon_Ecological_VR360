@@ -45,17 +45,6 @@ public class Controller : MonoBehaviour
             }
         }
     }
-
-    public void click()
-    {
-        entered = true;
-    }
-    public void exict()
-    {
-        entered = false;
-        timer = 0.0f;
-    }
-
     public void clickA()
     {
         entered = true;
