@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoadMark : MonoBehaviour
 {
     public static SceneLoadMark Instance;
-    public static List<string> LoadedSceneName;
+    public  List<string> LoadedSceneName;
     private void Awake()
     {
         if (Instance == null)

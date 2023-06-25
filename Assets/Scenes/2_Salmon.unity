@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5c65fdae8af1d8a43910973e108e761f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cca3a8a81f44e5d49bcd34b10ab4f226, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -226,7 +226,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 361299570}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -3.052, y: -144.60101, z: 3.413}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -251,14 +251,29 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1084958664}
-          m_MethodName: clickA
+          m_MethodName: InvokeFun
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: clickA
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1084958664}
+          m_MethodName: CancelInvokeFun
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: clickA
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &349112459
@@ -404,7 +419,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: closeC
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &360938131
@@ -576,13 +591,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -0.1508389}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_Children:
-  - {fileID: 349112457}
   - {fileID: 1657526253}
+  - {fileID: 349112457}
   - {fileID: 1777897691}
+  - {fileID: 651324529}
   - {fileID: 539972287}
   - {fileID: 2124628629}
   - {fileID: 996569678}
-  - {fileID: 651324529}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -294.073, z: 0}
@@ -880,13 +895,68 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
         type: 3}
+      propertyPath: m_Delegates.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1084958664}
     - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: InvokeFun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: clickC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].eventID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1084958664}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CancelInvokeFun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: clickC
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244483213983030497, guid: d93b020946abcec4197cd10ec0910335,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7806403592580268020, guid: d93b020946abcec4197cd10ec0910335,
         type: 3}
@@ -936,7 +1006,7 @@ PrefabInstance:
     - target: {fileID: 7806403592580268021, guid: d93b020946abcec4197cd10ec0910335,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7806403592580268021, guid: d93b020946abcec4197cd10ec0910335,
         type: 3}
@@ -1565,7 +1635,7 @@ Transform:
   - {fileID: 2104728083}
   - {fileID: 360938129}
   m_Father: {fileID: 361299570}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -4.261, y: -5.886, z: -10.243}
 --- !u!1 &1084958659
 GameObject:
@@ -1679,7 +1749,10 @@ MonoBehaviour:
   showPrefabB: {fileID: 2124628628}
   clickPointC: {fileID: 651324528}
   showPrefabC: {fileID: 996569677}
-  rsSecond: 1
+  timer: 0
+  nSecond: 1
+  funName: 
+  IsOpening: 0
 --- !u!1001 &1130493010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1806,8 +1879,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6f858de6ba551f940b79a7264b87dff5,
+      objectReference: {fileID: 21300000, guid: 90cd129b206921f4b9d30af8daaf94bc,
         type: 3}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1817,6 +1900,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: closeA
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: closeA
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].eventID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1084958664}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CancelInvokeFun
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: closeA
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239410660017728469, guid: 63a8e2172513e4a46a4531b5b2cb3279,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2239410660041875492, guid: 63a8e2172513e4a46a4531b5b2cb3279,
         type: 3}
@@ -1856,7 +1984,7 @@ PrefabInstance:
     - target: {fileID: 2239410660041875492, guid: 63a8e2172513e4a46a4531b5b2cb3279,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2239410660041875492, guid: 63a8e2172513e4a46a4531b5b2cb3279,
         type: 3}
@@ -2354,7 +2482,7 @@ PrefabInstance:
     - target: {fileID: 2429843307006281871, guid: 5d9d1f01b297bef42a7cb060d80f0b1e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2429843307006281871, guid: 5d9d1f01b297bef42a7cb060d80f0b1e,
         type: 3}
@@ -2523,7 +2651,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: closeB
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1695986076
@@ -2662,14 +2790,29 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1084958664}
-          m_MethodName: clickB
+          m_MethodName: InvokeFun
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: clickB
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1084958664}
+          m_MethodName: CancelInvokeFun
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: clickB
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1777897693
@@ -3063,7 +3206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 362133008c48a424fb7524c10cd9879a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e550d213f0cb18847887c83d47f8de3c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3111,5 +3254,5 @@ Transform:
   - {fileID: 296687014}
   - {fileID: 1695986074}
   m_Father: {fileID: 361299570}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 2.0410001, y: 7.5620003, z: 4.492}

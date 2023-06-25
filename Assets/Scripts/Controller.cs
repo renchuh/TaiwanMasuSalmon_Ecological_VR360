@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
+
 
 public class Controller : MonoBehaviour
 {
@@ -13,12 +15,12 @@ public class Controller : MonoBehaviour
     public GameObject clickPointC;
     public GameObject showPrefabC;
 
-
-    private float timer = 0;
-    public float rsSecond = 1f;
+    [SerializeField] private float timer = 0;
+    public float nSecond = 1f;
     private bool entered = false;
 
-
+    [SerializeField] private string funName;
+    [SerializeField] private bool IsOpening =false;
     void Start()
     {
        showPrefabA.SetActive(false);
@@ -29,6 +31,7 @@ public class Controller : MonoBehaviour
 
     }
 
+    // Update is called once per frame
     void Update()
     {
         //If pointer is pointing on the object, start the timer
@@ -38,56 +41,76 @@ public class Controller : MonoBehaviour
             timer += Time.deltaTime;
 
             //Load scene if counter has reached the nSecond
-            if (timer >= rsSecond)
+            if (timer >= nSecond)
             {
+                Invoke(funName,0f);
                 entered = false;
                 timer = 0.0f;
             }
         }
     }
-    public void clickA()
+
+    public void InvokeFun(string funName)
     {
         entered = true;
+        this.funName = funName;
+    }
+
+    public void CancelInvokeFun()
+    {
+        if(!IsOpening)
+        {
+            entered = false;
+            this.funName = string.Empty;
+            timer = 0;
+        }
+    }
+
+    public void clickA()
+    {
+        IsOpening = true;
         showPrefabA.SetActive(true);
         clickPointA.SetActive(false);
 
     }
     public void closeA()
     {
-        entered = false;
-        timer = 0.0f;
+        IsOpening = false;
         showPrefabA.SetActive(false);
         clickPointA.SetActive(true);
+
+
     }
 
     public void clickB()
     {
-        entered = true;
+        IsOpening = true;
         showPrefabB.SetActive(true);
         clickPointB.SetActive(false);
-
+      
     }
     public void closeB()
     {
-        entered = false;
-        timer = 0.0f;
+
+        IsOpening = false;
         showPrefabB.SetActive(false);
         clickPointB.SetActive(true);
+
     }
 
     public void clickC()
     {
-        entered = true;
+        IsOpening = true;
         showPrefabC.SetActive(true);
         clickPointC.SetActive(false);
-
+      
     }
     public void closeC()
     {
-        entered = false;
-        timer = 0.0f;
+        IsOpening = false;
         showPrefabC.SetActive(false);
         clickPointC.SetActive(true);
+
     }
 
 

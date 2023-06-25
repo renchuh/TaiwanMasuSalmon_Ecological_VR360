@@ -41,6 +41,7 @@ public class ChangePos : MonoBehaviour
     {
         entered = true;
         SceneName = name;
+        Debug.Log("clicking"+SceneName);
     }
     public void exict()
     {
